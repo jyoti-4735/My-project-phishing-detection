@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing URL Detector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Phishing URL Detector</h1>
+    </header>
+    
+    <main>
+        <section>
+            <label for="urlInput">Enter URL:</label>
+            <input type="text" id="urlInput" placeholder="Enter URL...">
+            <button onclick="checkPhishing()">Check Phishing</button>
+        </section>
+        
+        <section id="resultSection">
+            <p id="resultMessage"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Phishing URL Detector</p>
+    </footer>
+
+    <!-- Include the JavaScript file at the end of the body -->
+    <script src="script.js"></script>
+</body>
+</html>
